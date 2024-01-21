@@ -1,0 +1,28 @@
+
+body{background-color: green;}
+
+
+.road{ border-bottom: 7px dashed black;
+}
+     .panda{
+  	    
+			width: 233px;
+			height: 230px;
+			animation: run 1s steps(1) infinite,
+ 		   		forword 0.55s linear infinite;}
+
+				.panda img{
+					background-repeat: no-repeat;
+				}
+
+ @keyframes run{0%
+
+    	{ background-position:0px;}
+100%
+	{background-position: 1400px;}
+
+}
+@keyframes forword{0%
+		{transform: translatex(-200px);}
+		{transform: translatex(-1300px);}
+}
